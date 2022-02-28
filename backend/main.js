@@ -41,7 +41,7 @@ app.use(router);
 // });        
 
 // tell the app to use router for API mappings
-app.listen(process.env.PORT || 3000, (errors) => {          // initialise - port 3000
+app.listen(process.env.PORT, (errors) => {          // initialise - port 3000
     if(errors) {
         console.log(errors);
     }
