@@ -1,5 +1,6 @@
 // import the express library
 let express = require("express");     //import and require "express" module
+require("dotenv").config();
 
 // import cors to allow running backend on same machine as frontend.
 const cors = require("cors");
